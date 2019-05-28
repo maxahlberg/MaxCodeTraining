@@ -1,4 +1,4 @@
-package main
+package fizbuz
 
 import (
 	"fmt"
@@ -32,7 +32,7 @@ func buz(input int) (output2 string) {
 //	fmt.Println("Fly you foool!")
 //}
 
-func main() {
+func Fizbuzmain() {
 	fmt.Println("Hello Human, Welcome to Fiz BuZzzzz!")
 	time.Sleep(4 * time.Second)
 	fmt.Println("Enter a human number: ")
